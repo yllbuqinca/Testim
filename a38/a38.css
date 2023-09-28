@@ -1,0 +1,54 @@
+/*p::first-line {
+    background-color: red;
+}*/
+/*.sot::after{
+    content:"Sot";
+    color:aqua
+}
+.dje::before{
+    content:"Dje";
+    color:red
+}*/
+@keyframes beforeAnimation {
+    0% {
+      /* Initial state (before animation) */
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      /* Midway state (during animation) */
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    100% {
+      /* Final state (after animation) */
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
+  @keyframes afterAnimation {
+    0% {
+      /* Initial state (before animation) */
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      /* Midway state (during animation) */
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+    100% {
+      /* Final state (after animation) */
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .animated-element {
+    animation-name: afterAnimation; /* Switch to "after" keyframes on hover */
+  }
+  .animated-element{
+    color: chartreuse;
+  }
+  
+  

@@ -1,0 +1,24 @@
+
+.ylli{ 
+background-color: aqua;
+width: 90px;
+flex: auto;
+}
+.ylli1{ 
+background-color: aqua;
+width: 90px;
+flex: auto;
+}
+.ylli2 { 
+background-color: aqua;
+width: 90px;
+flex: auto;
+transform: scale(1);
+
+}
+nav{
+    display: flex;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+firstRow, .secondRow{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+.card{
+    width: 100px;
+    height:100px;
+}
+.red{
+    background-color: red;
+    transition: transform 1s ease-in; /*nuk funksionon nese nuk definohet transform-i poshte*/
+    transform-origin: 0 0;
+}
+.blue{
+    background-color: blue;
+    transition: transform 1s ease-in;
+    transform-origin: 100px 0;
+}
+.yellow{
+    background-color: yellow;
+    transition: transform 1s ease-in;
+    transform-origin: 0 100px;
+}
+.green{
+    background-color: green;
+    transition: transform 1s ease-in;
+    transform-origin: 100px 100px;
+}
+.firstRow{
+    margin-top:300px;
+}
+.container:hover .firstRow .red{
+    transform: rotate(90deg); 
+}
+.container:hover .firstRow .blue{
+    transform: rotate(-90deg); 
+}
+.container:hover .secondRow .yellow{
+    transform: rotate(-90deg); 
+}
+.container:hover .secondRow .green{
+    transform: rotate(90deg); 
+}
+p{
+    position: relative;
+    top: 410px;
+    left: 360px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: -1;
+}

@@ -1,0 +1,18 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.chartreuse {background-color: chartreuse;}
+.yellow {background-color:yellow ;}
+.orange {background-color: orange;}
+.orangered {background-color: orangered; }
+.red {background-color: red;}
