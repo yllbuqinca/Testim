@@ -1,0 +1,188 @@
+.logo{
+    width: 75px;
+    height: 70px;
+    text-align: right;
+}
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  nav {
+    background-color:  #30C48E;
+    color:  #30C48E;
+    padding: 0 15px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu";
+    align-items: center;
+  }
+  
+  h1 {
+    grid-area: logo;
+    height: 80px;
+  }
+  
+  ul {
+    grid-area: menu;
+    list-style: none;
+    justify-self: end;
+  }
+  ul li {
+    display: inline-block;
+    margin:0 80px;
+  }
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  input,
+  label {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 80px 1fr;
+      grid-template-areas: " logo hamburger" " menu menu";
+      height: auto;
+    }
+    nav label {
+      display: block;
+      font-size: 30px;
+      justify-self: end;
+    }
+    nav ul {
+      display: none;
+    }
+    nav #open-menu:checked + ul {
+      width: 100%;
+      grid-area: menu;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      height: calc(100hv - 80px);
+      flex-direction: column;
+    }
+    nav #open-menu:checked + ul li {
+      display: block;
+      font-size: 30px;
+      margin: 10px 0px;
+    }
+    }
+.Prishtina{
+  box-shadow: 0 0 5px #30C48E,
+  0 0 25px #30C48E;
+  /* border-width: 260px; */
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+  background-image: url(download.jpeg);
+  font-size: xx-large;
+  font-weight: 700;
+  color:aliceblue;
+  background-size:  cover;
+  background-position: center;
+  }
+
+button:hover {
+  box-shadow: 0 0 3px #30C48E,
+  0 0 15px #30C48E, 0 0 30px #30C48E,
+  0 0 80px #30C48E, 0 0 130px #30C48E;
+}
+.Mitrovica{
+  box-shadow: 0 0 5px #30C48E,
+  0 0 25px #30C48E;
+  /* border-width: 260px; */
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+  background-image: url(mitrovica-1.jpg);
+  font-size: xx-large;
+  font-weight: 700;
+  color:aliceblue;
+  background-size:  cover;
+  background-position: center;
+  }
+
+button:hover {
+  box-shadow: 0 0 3px #30C48E,
+  0 0 15px #30C48E, 0 0 30px #30C48E,
+  0 0 80px #30C48E, 0 0 130px #30C48E;
+}
+.Peja{
+  box-shadow: 0 0 5px #30C48E,
+  0 0 25px #30C48E;
+  /* border-width: 260px; */
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+  background-image: url(/Peja-5-min.webp);
+  font-size: xx-large;
+  font-weight: 700;
+  color:aliceblue;
+  background-size:  cover;
+  background-position: center;
+  }
+
+  button:hover {
+    box-shadow: 0 0 3px #30C48E,
+    0 0 15px #30C48E, 0 0 30px #30C48E,
+    0 0 80px #30C48E, 0 0 130px #30C48E;
+    }
+.Prizren{
+  box-shadow: 0 0 5px #30C48E,
+  0 0 25px #30C48E;
+  /* border-width: 260px; */
+  height: 250px;
+  width: 600px;
+  border-radius: 30px;
+  background-image: url(besart-ademi-3jfrp68TVRE-unsplash.jpg);
+  font-size: xx-large;
+  font-weight: 700;
+  color:aliceblue;
+  background-size:  cover;
+  background-position: center;
+  }
+
+  button:hover {
+    box-shadow: 0 0 3px #30C48E,
+    0 0 15px #30C48E, 0 0 30px #30C48E,
+    0 0 80px #30C48E, 0 0 130px #30C48E;
+    }
+p{
+  font-size: x-large;
+}
+.food{
+  width: 350px;
+  height: 900px;
+}
+.boxtext{
+  display: flex;
+}
+.fotot{
+  width: 30%;
+}
+#foto1{
+ width: 350px;
+ height: 350px;
+}
+a {
+  text-decoration: none; 
+  color: aliceblue;
+}
+span{
+  font-weight:700 ;
+  font-size:x-large ;
+}
+.text{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  font-size: xx-large;
+}
